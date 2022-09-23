@@ -1,0 +1,13 @@
+syntax = "proto3";
+package elola.elola;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "elola/x/elola/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
